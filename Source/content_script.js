@@ -24,9 +24,9 @@ function handleText(textNode) {
   textNode.nodeValue = textNode.nodeValue
       .replace(/\ban AI\b/g, 'Natural Stupidity')
       .replace(/\bAIs\b/g, 'Natural Stupidities')
-      .replace(/\bA.I.s\b/g, 'Natural Stupidities')
+      .replace(/\bA\.I\.s\b/g, 'Natural Stupidities')
       .replace(/\bAI\b/g, 'Natural Stupidity')
-      .replace(/\bA.I.\b/g, 'Natural Stupidity')
+      .replace(/\bA\.I\.\b/g, 'Natural Stupidity')
       .replace(/\bArtificial Intelligence\b/g, 'Natural Stupidity')
       .replace(/\bArtificial intelligence\b/g, 'Natural stupidity')
       .replace(/\bartificial intelligence\b/g, 'Natural Stupidity');
